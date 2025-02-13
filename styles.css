@@ -1,0 +1,38 @@
+.type-link {
+  display: block;
+}
+
+.stats {
+  background-color: pink;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.name-id {
+  display: flex;
+  gap: 5px;
+  height: 50px;
+}
+
+.slot {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  height: 50px;
+}
+
+.types {
+  display: flex;
+  gap: 5px;
+}
+
+.types p {
+  display: inline-block;
+  margin-right: 5px;
+}
